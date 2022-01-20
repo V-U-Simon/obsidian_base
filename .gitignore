@@ -1,0 +1,8 @@
+### Obsidian ###
+# config dir
+
+.obsidian.desktop/
+.obsidian.mobile/
+.obsidian/
+.trash/
+.DS_Store
