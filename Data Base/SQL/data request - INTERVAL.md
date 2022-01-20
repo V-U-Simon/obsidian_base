@@ -1,0 +1,18 @@
+---
+tags:
+  - DB/SQL/DML-Manipulation/request
+date created: 2021-12-19 15:19
+date updated: 2022-01-04 17:59
+---
+
+```sql
+SELECT '2018-10-01 0:00:00'; -- задать дату
+
+-- INTERVAL:
+SELECT '2018-10-01 0:00:00' - INTERVAL 1 DAY;
+SELECT '2018-10-01 0:00:00' + INTERVAL 1 WEEK;
+SELECT '2018-10-01 0:00:00' + INTERVAL 1 YEAR;
+SELECT '2018-10-01 0:00:00' + INTERVAL '1-1' YEAR_MONTH;
+
+
+```
